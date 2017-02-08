@@ -84,7 +84,7 @@ public class HMMPaths {
 			return false;
 		} else if(five == gLength) {
 			return false;
-		} else if(tempPath.length() != givenLength) {
+		} else if(tempPath.length() != (givenLength+3)) { // account for "End" in sequence
 			return false;
 		}else {
 			return true;
